@@ -1,0 +1,15 @@
+current directory: /home/bwisniewski/costam/asi/notesapp/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.3/ext/websocket-driver
+/home/bwisniewski/.rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20160410-4977-173yunz.rb extconf.rb
+creating Makefile
+
+current directory: /home/bwisniewski/costam/asi/notesapp/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.3/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /home/bwisniewski/costam/asi/notesapp/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.3/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/bwisniewski/costam/asi/notesapp/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.3/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -m 0755 websocket_mask.so ./.gem.20160410-4977-3gi3u
