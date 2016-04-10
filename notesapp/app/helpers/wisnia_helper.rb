@@ -1,0 +1,2 @@
+module WisniaHelper
+end
