@@ -1,10 +1,11 @@
 class NotesController < ApplicationController
   before_action :set_note, only: [:show, :edit, :update, :destroy]
-  http_basic_authenticate_with name: "user", password: "user", except: :index
+  #http_basic_authenticate_with name: "user", password: "user", except: :index
   # GET /notes
   # GET /notes.json
   def index
-    @notes = Note.all
+  #  @notes = Note.all
+    @notes = Note.paginate(:page => params[:page], :per_page => 5)
   end
 
   # GET /notes/1
