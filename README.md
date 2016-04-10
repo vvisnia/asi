@@ -1,5 +1,5 @@
 1. Zaliczenie:
-  - [x] [Notebook](notesapp) (login: user pass: user)
+  - [x] [Notesapp](notesapp) (login: user pass: user)
   - [x] [https://notesappwisniak.herokuapp.com/](/)
 2. Egzamin:
   - [ ] [nazwa aplikacji](egzamin)
