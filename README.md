@@ -1,5 +1,5 @@
 1. Zaliczenie:
-  - [ ] [Diary](notesapp) (login: user pass: user)
+  - [x] [Diary](notesapp) (login: user pass: user)
   - [ ] [link do wdrożonej na zewnętrznym serwerze aplikacji](/)
 2. Egzamin:
   - [ ] [nazwa aplikacji](egzamin)
