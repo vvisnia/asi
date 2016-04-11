@@ -1,6 +1,6 @@
 class NotesController < ApplicationController
   before_action :set_note, only: [:show, :edit, :update, :destroy]
-  #http_basic_authenticate_with name: "user", password: "user", except: :index
+  http_basic_authenticate_with name: "user", password: "user", except: :index
   # GET /notes
   # GET /notes.json
   def index
